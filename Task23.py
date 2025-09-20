@@ -1,6 +1,6 @@
 #جملة ترحبيه في الستخدم
 name=str(input("Enter Your Name"))
-print(f"Welcome,{name}:Letsstart entering the settings")
+print(f"Welcome,{name}:Lets start entering the settings")
 #سوف يتم انشاء قائمه من اجل حفظ الاعداد
 numbers=[]
 # الان سوف يتم استخدام جمل الدوران من اجل تسهيل عملية الدوران  لكن يجب ان يتم سؤال المستخدم عن عدد الارقام التي يجب ان يتم ادخالها
@@ -22,23 +22,9 @@ for number in numbers:
         y+=1
 if x>y:
     print('Ther are more even numbers')
+
 elif y>x:
     print("Ther are more odd numbers ")
 else:
     print("even = odd")                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
